@@ -3,7 +3,7 @@ import 'package:table_calendar/table_calendar.dart';
 
 import 'package:moodrn/moods/calendar_icon.dart';
 import 'package:moodrn/views/create_update_mood_view.dart';
-import 'package:moodrn/db_helper.dart';
+import 'package:moodrn/services/db_helper.dart';
 
 import '../global.dart';
 import '../moods/mood_card.dart';

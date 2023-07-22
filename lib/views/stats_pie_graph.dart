@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:pie_chart/pie_chart.dart';
 
-import 'global.dart';
+import '../global.dart';
 
 class PieGraph extends StatefulWidget {
   final int month;

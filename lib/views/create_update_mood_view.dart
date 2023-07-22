@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:moodrn/global.dart';
 import 'package:provider/provider.dart';
 
-import 'package:moodrn/db_notifier.dart';
+import 'package:moodrn/services/db_notifier.dart';
 import 'package:moodrn/moods/mood_icon.dart';
 
 import '../activities/activity.dart';
 import '../activities/activity_icon.dart';
-import '../db_helper.dart';
+import '../services/db_helper.dart';
 import '../moods/mood.dart';
 import '../utilities/insufficient_dialog.dart';
 

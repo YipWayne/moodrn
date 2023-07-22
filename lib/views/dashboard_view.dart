@@ -4,7 +4,7 @@ import 'package:moodrn/moods/mood_card.dart';
 import 'package:moodrn/views/create_update_mood_view.dart';
 
 import '../global.dart';
-import '../db_helper.dart';
+import '../services/db_helper.dart';
 import '../utilities/delete_dialog.dart';
 
 class DashboardView extends StatefulWidget {

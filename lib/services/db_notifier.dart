@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:moodrn/db_helper.dart';
+import 'package:moodrn/services/db_helper.dart';
 
-import 'activities/activity.dart';
-import 'moods/mood.dart';
+import '../activities/activity.dart';
+import '../moods/mood.dart';
 
 class DBNotifier extends ChangeNotifier {
   String date = '';

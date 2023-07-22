@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:moodrn/db_helper.dart';
-import 'package:moodrn/drop_down.dart';
+import 'package:moodrn/services/db_helper.dart';
+import 'package:moodrn/views/stats_drop_down.dart';
 
-import 'package:moodrn/line_graph.dart';
-import 'package:moodrn/pie_graph.dart';
+import 'package:moodrn/views/stats_line_graph.dart';
+import 'package:moodrn/views/stats_pie_graph.dart';
 
 import '../global.dart';
 
