@@ -8,3 +8,5 @@ String reformatDate(String date) {
   DateTime dt = DateFormat('yyyy/MM/dd').parse(date);
   return DateFormat.yMMMMd().format(dt);
 } 
+
+List<String> moods = ['Very Sad', 'Sad', 'Neutral', 'Happy', 'Very Happy'];

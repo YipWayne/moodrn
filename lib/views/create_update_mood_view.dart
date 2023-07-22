@@ -266,7 +266,7 @@ class _CreateUpdateMoodViewState extends State<CreateUpdateMoodView> {
                   onPressed: () async {
                     bool addEntrySuccess = await Provider.of<DBNotifier>(context, listen: false)
                     .addEntryToDB(_textController.text);
-                    if (addEntrySuccess) {
+                    if (addEntrySuccess && context.mounted) {
                       Navigator.of(context).pop();
                     }
                     else {

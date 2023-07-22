@@ -4,6 +4,8 @@ import 'package:provider/provider.dart';
 import 'package:moodrn/db_notifier.dart';
 import 'package:moodrn/views/calendar_view.dart';
 import 'package:moodrn/views/dashboard_view.dart';
+import 'package:moodrn/views/stats_view.dart';
+
 
 void main() {
   runApp(ChangeNotifierProvider(
@@ -41,11 +43,13 @@ class _MyHomePageState extends State<MyHomePage> {
   final titleOptions = [
     'My Calendar',
     'My Dashboard',
+    'My Stats'
   ];
 
   final widgetOptions = [
     const CalendarView(),
     const DashboardView(),
+    const StatsView()
   ];
 
   void onItemTapped(int index) {
@@ -84,6 +88,10 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.dashboard),
             label: 'Dashboard',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.bar_chart),
+            label: 'Stats',
           )
         ],
         currentIndex: selectedIndex,

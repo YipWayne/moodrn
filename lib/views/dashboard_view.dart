@@ -93,7 +93,9 @@ class _DashboardViewState extends State<DashboardView> {
               }
             );
           }
-          return const CircularProgressIndicator();
+          return const Center(
+            child: CircularProgressIndicator()
+          );
         }
       )
     );
